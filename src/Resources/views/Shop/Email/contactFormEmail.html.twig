@@ -1,0 +1,10 @@
+{% block subject %}
+    {{ 'mango_contact_form_plugin.subject.customer'|trans }}
+{% endblock %}
+
+{% block body %}
+    {% autoescape %}
+        {{ contact.message }}
+    {% endautoescape %}
+{% endblock %}
+

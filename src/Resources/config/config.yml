@@ -1,0 +1,5 @@
+imports:
+  - { resource: '@MangoSyliusContactFormPlugin/Resources/config/packages/resources.yml' }
+  - { resource: '@MangoSyliusContactFormPlugin/Resources/config/packages/emails.yml' }
+  - { resource: '@MangoSyliusContactFormPlugin/Resources/config/packages/grid.yml' }
+  - { resource: '@MangoSyliusContactFormPlugin/Resources/config/packages/mango_sylius_contact_form.yml' }

@@ -1,0 +1,13 @@
+sylius_mailer:
+  emails:
+    mango_sylius_contact_form_admin_notice_mail:
+      subject: 'Message sent'
+      template: '@MangoSyliusContactFormPlugin/Shop/Email/adminNoticeEmail.html.twig'
+
+    mango_sylius_contact_form_contact_form_email:
+      subject: 'Message sent'
+      template: '@MangoSyliusContactFormPlugin/Shop/Email/contactFormEmail.html.twig'
+
+    mango_sylius_contact_form_answer_mail:
+      subject: 'Message sent'
+      template: '@MangoSyliusContactFormPlugin/Admin/Email/answerEmail.html.twig'

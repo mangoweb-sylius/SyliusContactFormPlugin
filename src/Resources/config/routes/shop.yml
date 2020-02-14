@@ -1,0 +1,5 @@
+mango_sylius_shop_contact_page:
+  path: contact
+  methods: [GET, POST]
+  defaults:
+    _controller: MangoSylius\SyliusContactFormPlugin\Controller\ContactFormController:requestAction

@@ -1,0 +1,2 @@
+mango_sylius_contact_form:
+    resource: "@MangoSyliusContactFormPlugin/Resources/config/routing.yml"
