@@ -65,7 +65,7 @@ class ContactFormMessage implements ResourceInterface, ContactFormMessageInterfa
     /**
      * @var CustomerInterface|null
      *
-     * @ORM\ManyToOne(targetEntity="Sylius\Component\Core\Model\Customer")
+     * @ORM\ManyToOne(targetEntity="Sylius\Component\Customer\Model\CustomerInterface")
      */
     protected $customer;
 
